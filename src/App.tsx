@@ -17,8 +17,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <Breadcrumbs 
             items={breadcrumbItems} 
-            itemsBefore={3}  // Show 2 items before dots
-            itemsAfter={1}   // Show 1 item after dots
+            itemsBefore={1}  // Show 2 items before dots
+            itemsAfter={2}   // Show 1 item after dots
           />
         </div>
       </header>
